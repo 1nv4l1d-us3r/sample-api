@@ -5,7 +5,7 @@ app = FastAPI()
 # 1. GET route for greeting
 @app.get("/hello")
 async def read_hello():
-    return {"message": "Hello, FastAPI!"}
+    return {"message": "Hello, You are a Nigesh...."}
 
 # 2. GET route to fetch an item by its ID
 @app.get("/items/{item_id}")
